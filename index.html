@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Tetris</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="left">
+      <canvas id="board" width="300" height="600"></canvas>
+    </div>
+
+    <div id="right">
+      <div class="panel">
+        <h3>Next</h3>
+        <div id="next"></div>
+        <div class="panel">
+  <h3>Assistant (NAV)</h3>
+  <div id="assist-suggestion">—</div>
+  <div id="assist-reason" style="font-size:12px;color:#9aa7b2"></div>
+  <div style="margin-top:6px;font-size:12px">
+    A = Accept
+  </div>
+</div>
+      </div>
+
+      <div class="panel">
+        <h3>Hold</h3>
+        <canvas id="hold" width="120" height="120"></canvas>
+      </div>
+
+      <div class="panel">
+        <h3>Score</h3>
+        <div id="score">0</div>
+        <div>Lines: <span id="lines">0</span></div>
+        <div>Level: <span id="level">1</span></div>
+      </div>
+
+      <div class="panel">
+        <button id="btn-start">Start / Restart</button>
+        <button id="btn-pause">Pause</button>
+      </div>
+
+      <div class="panel small">
+        <h4>Controls</h4>
+        <pre>
+← → : move
+↓ : soft drop
+Space : hard drop
+X / ↑ : rotate cw
+Z : rotate ccw
+C : hold
+P : pause
+        </pre>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
