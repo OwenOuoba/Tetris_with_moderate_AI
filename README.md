@@ -73,13 +73,13 @@ Although no machine learning model is trained, the methodology mirrors early-sta
 
 
 **Figure 1** 
-![Assistive highlight example](images/Screenshot 2026-01-17 014202.png)
+![Assistive highlight example](images/Screenshot2026-01-17014202.png)
 
 **Figure 2** – Board state without assistive suggestion  
-![Unassisted board](images/Screenshot 2026-01-17 212600.png)
+![Unassisted board](images/Screenshot2026-01-17212600.png)
 
 **Figure 3** – Comparison of evaluated candidate placements  
-![Placement comparison](images/Screenshot 2026-01-17 212654.png)
+![Placement comparison](images/Screenshot2026-01-17212654.png)
 
 
 
